@@ -1,6 +1,7 @@
 package DS;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class Node {
@@ -72,5 +73,6 @@ public class Node {
         insertintoBST(bst,7);
         insertintoBST(bst,17);
         traverse.LevelOrder(bst);
+
     }
 }
